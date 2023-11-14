@@ -2,3 +2,4 @@
   workflows:
     - subclass: WDL
       primaryDescriptorPath: /test.wdl
+      name: testing_WDL
