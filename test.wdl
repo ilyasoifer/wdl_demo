@@ -25,7 +25,15 @@ workflow bamstatsWorkflow {
         File bam_input
         Int mem_gb
     }
-
+  parameter_meta {
+    bam_input: {
+      help: "Input file"
+    }
+    mem_gb: { 
+      help: "Memory",
+      suggestions: [8,16]
+    }
+  }
     call bamstats { input: bam_input=bam_input, mem_gb=mem_gb }
 
     meta {
