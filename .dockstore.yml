@@ -4,4 +4,4 @@
       primaryDescriptorPath: /test.wdl
       name: testing_WDL
       testParameterFiles:
-        /test.json
+        - /test.json
