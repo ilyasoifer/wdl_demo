@@ -3,6 +3,6 @@
     - subclass: WDL
       primaryDescriptorPath: /test.wdl
       name: testing_WDL
-      readMePath: README.md
+      readMePath: /README.md
       testParameterFiles:
         - /test.json
