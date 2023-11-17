@@ -31,6 +31,6 @@ workflow bamstatsWorkflow {
     meta {
         author: "Andrew Duncan"
         email: "andrew@foobar.com"
-        description: "## Bamstats \n This is the Bamstats workflow.\n\n Adding documentation improves clarity."
+        description: "## Bamstats \n This is the Bamstats workflow.\n\n Adding documentation improves clarity. \nOne of the most intersting workflows here"
     }
 }
